@@ -1,0 +1,19 @@
+$grid-columns: 24 !default;
+$grid-gutter-width: 20px !default;
+$grid-breakpoints: ( // Extra small screen / phone
+    xs: 0, // Small screen / phone
+    sm: 576px, // Medium screen / tablet
+    md: 768px, // Large screen / desktop
+    lg: 992px, // Extra large screen / wide desktop
+    xl: 1200px, // FullHD large screen / wide desktop
+    fhd: 1920px, // Retina large screen / wide desktop
+) !default;
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px, fhd: 1860px) !default;
+$spacers:(min: (1rem * .13));
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #e9ecefd1;
+    opacity: 1;
+}
