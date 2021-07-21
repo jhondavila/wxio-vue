@@ -1,4 +1,4 @@
-import Core from "../../common/core";
+import Core from "../common/core";
 
 // console.log(Core);
 let ipc = function () {
